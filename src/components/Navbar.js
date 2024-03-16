@@ -17,13 +17,10 @@ function Navbar(){
               <a href="#skills" className="mr-5 text-gray-300 hover:text-white">
                 Skills
               </a>
-              <a href="#testimonials" className="mr-5 text-gray-300 hover:text-white">
-                Testimonials
-              </a>
             </nav>
             <a
               href="#contact"
-              className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+              className="inline-flex items-center bg-gray-300 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
               Hire Me
               <ArrowRightIcon className="w-4 h-4 ml-1" />
             </a>
