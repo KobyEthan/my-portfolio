@@ -1,15 +1,15 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Note Taker",
+    subtitle: "React and JS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Uses various different React concepts such as conditional rendering, hooks, Material UI, and ES6 operators. A culmination of my react experience.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://note-taker1234.netlify.app",
   },
   {
     title: "React Tracks",
-    subtitle: "React and Python",
+    subtitle: "Mapping Component Tree",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
@@ -24,12 +24,12 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Amazing Todo App",
+    subtitle: "Mapping Component Tree",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Features all of the concepts mentioned in the description of my note taker app.",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://todo-list-app1234.netlify.app",
   },
 ];
 

@@ -12,7 +12,7 @@ function Projects(){
             My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-300">
-            Check out a few applications I've built that showcase my skills!
+            Check out a few applications I've built that showcase my skills! All apps are deployed with Netlify.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
