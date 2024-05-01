@@ -1,6 +1,7 @@
 import React from "react";
 // import ProfileImage form "../assets/profile-image.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm an aspiring Full Stack Developer
+            Aspiring Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am extremely passionate about the software development industry
@@ -22,16 +23,19 @@ const Home = () => {
             with technologies like React, Tailwind, JavaScript and many others.
           </p>
           <div>
-            <button
+            <Link
+              to="projects"
+              smooth
+              duration={600}
               className="group text-white w-fit px-6 py-3 my-2 
             flex items-center rounded-md bg-gradient-to-r
              from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Portfolio
+              Projects
               <span className="group-hover:rotate-90 duration-300 pl-3">
                 <FaArrowRightLong size={20} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
