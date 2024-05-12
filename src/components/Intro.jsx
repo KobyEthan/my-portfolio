@@ -20,7 +20,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             I am extremely passionate about the software development industry
             and am eager to learn! Currently, I love to work on web applications
-            with technologies like React, Tailwind, JavaScript and many others.
+            with technologies like React and JavaScript.
           </p>
           <div>
             <Link

@@ -1,5 +1,7 @@
 import React from "react";
-import { projects } from "../data";
+import { bigProjects, smallProjects } from "../data";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Portfolio = () => {
   return (
     <div
@@ -21,11 +23,26 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work!</p>
         </div>
 
+        <div className="mb-8">
+          <Carousel showArrows={true} showThumbs={false} dynamicHeight={true}>
+            {bigProjects.map(({ id, src, gitLink }) => (
+              <div key={id}>
+                <img
+                  src={src}
+                  alt="project-pic"
+                  className="rounded-lg"
+                  href={gitLink}
+                />
+              </div>
+            ))}
+          </Carousel>
+        </div>
+
         <div
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
         px-12 sm:px-0"
         >
-          {projects.map(({ id, src, gitLink }) => (
+          {smallProjects.map(({ id, src, gitLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 className="rounded-lg duration-200 hover:scale-105"
@@ -33,9 +50,6 @@ const Portfolio = () => {
                 alt=""
               />
               <div className="flex items-center justify-center text-center">
-                <button className="bg-gray-800 rounded-lg w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Deployed Project
-                </button>
                 <a
                   href={gitLink}
                   className="bg-gray-800 rounded-lg w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"

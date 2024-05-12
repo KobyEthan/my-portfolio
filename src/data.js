@@ -1,5 +1,8 @@
 import chatApp from "./assets/projectPics/chatApp.png";
 import persistenceList from "./assets/projectPics/persistenceList.png";
+import simpleCalculator from "./assets/projectPics/simpleCalculator.png";
+import sortingVisualizer from "./assets/projectPics/sortingVisualizer.png";
+import jokeGenerator from "./assets/projectPics/jokeGenerator.png";
 import HTML from "./assets/skillsIcons/html-5.png";
 import CSS from "./assets/skillsIcons/css-3.png";
 import GitHub from "./assets/skillsIcons/github.png";
@@ -13,7 +16,7 @@ import SQL from "./assets/skillsIcons/sql-server.png";
 const links = [
   {
     id: 1,
-    link: "home",
+    link: "intro",
   },
   {
     id: 2,
@@ -88,18 +91,35 @@ const skills = [
   },
 ];
 
-const projects = [
+const bigProjects = [
   {
     id: 1,
     src: chatApp,
     gitLink: "https://github.com/KobyEthan/MERN-chat-app",
-    // add project link here, then add an onlcick in the demo button once app is deployed
   },
   {
     id: 2,
-    src: persistenceList,
-    gitLink: "https://github.com/KobyEthan/persistence-list",
+    src: sortingVisualizer,
+    gitLink: "https://github.com/KobyEthan/sorting-visualizer",
   },
 ];
 
-export { links, skills, projects };
+const smallProjects = [
+  {
+    id: 1,
+    src: persistenceList,
+    gitLink: "https://github.com/KobyEthan/persistence-list",
+  },
+  {
+    id: 2,
+    src: simpleCalculator,
+    gitLink: "https://github.com/KobyEthan/simple-calculator.git",
+  },
+  {
+    id: 3,
+    src: jokeGenerator,
+    gitLink: "https://github.com/KobyEthan/jokeAPI-app.git",
+  },
+];
+
+export { links, skills, bigProjects, smallProjects };

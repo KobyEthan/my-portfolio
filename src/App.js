@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Home from "./components/Home";
+import Intro from "./components/Intro";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Home />
+      <Intro />
       <About />
       <Projects />
       <Skills />
