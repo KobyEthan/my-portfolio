@@ -21,16 +21,16 @@ const About = () => {
           going in as undelcared was unwise and picking a major was in my best
           interest. I figured that I had enough interest in technology to start
           a degree in computer information systems, though I wasn't too
-          enthusiastic about it back then. It wasn't until I had my first real
+          enthusiastic about it at the time. It wasn't until I had my first real
           programming course with my friends that I fell in love with every
-          aspect of software development (yes, even the debugging).
+          aspect of software development (even debugging).
         </p>
         <br />
         <p className="text-xl">
           From that moment forward I was hooked (react pun) and knew I wanted to
           code for a living. Throughout my degree I learned about object
-          oriented programming with Java, networking and information security,
-          web development, Python, and many other concepts. Currently, I'm
+          oriented programming with Java and Python, networking and information
+          security, web development, and many other concepts. Currently, I'm
           picking up JavaScript, and building web applications to enhance my
           skills and my portfolio.
         </p>

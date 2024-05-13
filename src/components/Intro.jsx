@@ -1,12 +1,12 @@
 import React from "react";
-// import ProfileImage form "../assets/profile-image.png";
+import ProfileImage from "../assets/pictureOfMe.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <div
-      name="home"
+      name="intro"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div
@@ -15,12 +15,12 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Aspiring Full Stack Developer
+            Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am extremely passionate about the software development industry
-            and am eager to learn! Currently, I love to work on web applications
-            with technologies like React and JavaScript.
+            I am a passionate full-stack developer that loves to build apps.
+            Currently, I'm working on projects with technologies like React and
+            Javascript.
           </p>
           <div>
             <Link
@@ -39,11 +39,11 @@ const Home = () => {
           </div>
         </div>
         <div>
-          {/* <img
+          <img
             src={ProfileImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          /> */}
+            alt="me"
+            className="rounded-2xl ml-2 mx-auto w-2/3 md:w-full"
+          />
         </div>
       </div>
     </div>

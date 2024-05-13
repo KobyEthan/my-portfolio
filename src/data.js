@@ -96,11 +96,20 @@ const bigProjects = [
     id: 1,
     src: chatApp,
     gitLink: "https://github.com/KobyEthan/MERN-chat-app",
+    title: "Chat App",
+    description:
+      "A real-time chat application using socket.io and the MERN stack to provide a seemless user experience.",
+    stack:
+      "React, Node, Express, MongoDB, Socket.io, JWT, Bcrypt, Axios, Material-UI, Chakra UI.",
   },
   {
     id: 2,
     src: sortingVisualizer,
     gitLink: "https://github.com/KobyEthan/sorting-visualizer",
+    title: "Sorting Visualizer",
+    description:
+      "Visually represents popular sorting algorithms to better understand how they work.",
+    stack: "React, JavaScript, HTML, CSS.",
   },
 ];
 
@@ -109,16 +118,26 @@ const smallProjects = [
     id: 1,
     src: persistenceList,
     gitLink: "https://github.com/KobyEthan/persistence-list",
+    title: "Persistence List",
+    description:
+      "A simple to-do list app that uses local storage to save tasks.",
+    stack: "EJS, Node, Express, HTML, CSS.",
   },
   {
     id: 2,
-    src: simpleCalculator,
-    gitLink: "https://github.com/KobyEthan/simple-calculator.git",
+    src: jokeGenerator,
+    gitLink: "https://github.com/KobyEthan/jokeAPI-app.git",
+    title: "Joke Generator",
+    description: "An app that fetches jokes from an API and displays them.",
+    stack: "EJS, Node, Express, HTML, CSS.",
   },
   {
     id: 3,
-    src: jokeGenerator,
-    gitLink: "https://github.com/KobyEthan/jokeAPI-app.git",
+    src: simpleCalculator,
+    gitLink: "https://github.com/KobyEthan/simple-calculator.git",
+    title: "Simple Calculator",
+    description: "A basic calculator that can perform simple arithmetic.",
+    stack: "JavaScript, HTML, CSS.",
   },
 ];
 
