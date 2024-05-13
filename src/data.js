@@ -3,6 +3,7 @@ import persistenceList from "./assets/projectPics/persistenceList.png";
 import simpleCalculator from "./assets/projectPics/simpleCalculator.png";
 import sortingVisualizer from "./assets/projectPics/sortingVisualizer.png";
 import jokeGenerator from "./assets/projectPics/jokeGenerator.png";
+import noteTaker from "./assets/projectPics/noteTaker.png";
 import HTML from "./assets/skillsIcons/html-5.png";
 import CSS from "./assets/skillsIcons/css-3.png";
 import GitHub from "./assets/skillsIcons/github.png";
@@ -24,11 +25,11 @@ const links = [
   },
   {
     id: 3,
-    link: "projects",
+    link: "skills",
   },
   {
     id: 4,
-    link: "skills",
+    link: "projects",
   },
 ];
 
@@ -135,9 +136,17 @@ const smallProjects = [
     id: 3,
     src: simpleCalculator,
     gitLink: "https://github.com/KobyEthan/simple-calculator.git",
-    title: "Simple Calculator",
+    title: "Calculator",
     description: "A basic calculator that can perform simple arithmetic.",
     stack: "JavaScript, HTML, CSS.",
+  },
+  {
+    id: 4,
+    src: noteTaker,
+    gitLink: "https://github.com/KobyEthan/note-taker-app",
+    title: "Note Taker",
+    description: "Allows the user to create and delete notes.",
+    stack: "React, JavaScript, HTML, CSS.",
   },
 ];
 

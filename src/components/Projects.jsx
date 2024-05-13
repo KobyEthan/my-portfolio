@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black min-h-screen text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -18,12 +18,15 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work!</p>
         </div>
 
-        <div className="mb-8 max-w-3xl mx-auto">
+        <div className="z-0 mb-8 max-w-3xl mx-auto">
           <Carousel
             showArrows={true}
             showIndicators={false}
             showThumbs={false}
             dynamicHeight={true}
+            autoPlay={true}
+            interval={4000}
+            infiniteLoop={true}
           >
             {bigProjects.map(
               ({ id, src, gitLink, title, description, stack }) => (
