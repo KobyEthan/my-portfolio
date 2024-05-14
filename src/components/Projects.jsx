@@ -27,6 +27,7 @@ const Portfolio = () => {
             autoPlay={true}
             interval={4000}
             infiniteLoop={true}
+            className="rounded-lg shadow-md shadow-gray-600"
           >
             {bigProjects.map(
               ({ id, src, gitLink, title, description, stack }) => (
