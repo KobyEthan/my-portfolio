@@ -120,8 +120,7 @@ const smallProjects = [
     src: persistenceList,
     gitLink: "https://github.com/KobyEthan/persistence-list",
     title: "Persistence List",
-    description:
-      "A simple to-do list app that uses local storage to save tasks.",
+    description: "A simple to-do list app that uses SQLite to save tasks.",
     stack: "EJS, Node, Express, HTML, CSS.",
   },
   {
