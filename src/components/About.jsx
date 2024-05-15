@@ -18,12 +18,12 @@ const About = () => {
         </div>
         <p className="text-xl mt-10">
           My software development journey started in college when I decided that
-          going in as undelcared was unwise and picking a major was in my best
-          interest. I figured that I had enough interest in technology to start
-          a degree in computer information systems, though I wasn't too
+          going in as undelcared was unwise and picking a major was the best way
+          to go. I figured that I had enough interest in technology to start a
+          degree in computer information systems, though I wasn't too
           enthusiastic about it at the time. It wasn't until I had my first real
           programming course with my friends that I fell in love with every
-          aspect of software development (even debugging).
+          aspect of software development.
         </p>
         <br />
         <p className="text-xl">
@@ -31,8 +31,7 @@ const About = () => {
           code for a living. Throughout my degree I learned about object
           oriented programming with Java and Python, networking and information
           security, web development, and many other concepts. Currently, I'm
-          picking up JavaScript, and building web applications to enhance my
-          skills and my portfolio.
+          building web applications to enhance my skills and my portfolio.
         </p>
       </div>
     </div>

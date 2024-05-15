@@ -18,9 +18,9 @@ const Home = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a passionate full-stack developer that loves to build apps.
-            Currently, I'm working on projects with technologies like React and
-            Javascript.
+            I am a passionate full-stack developer that loves to build apps!
+            Right now, I'm working on projects that are helping me learn
+            TypeScript and other technologies.
           </p>
           <div>
             <Link
