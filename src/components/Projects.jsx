@@ -2,6 +2,7 @@ import React from "react";
 import { bigProjects, smallProjects } from "../data";
 import { Carousel } from "react-responsive-carousel";
 import { FaGithub } from "react-icons/fa";
+import { GrDeploy } from "react-icons/gr";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Portfolio = () => {
@@ -57,7 +58,7 @@ const Portfolio = () => {
 
         <div className="mb-8 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {smallProjects.map(
-            ({ id, src, gitLink, title, description, stack }) => (
+            ({ id, src, gitLink, deployLink, title, description, stack }) => (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   className="rounded-lg duration-200 hover:scale-105"
@@ -72,6 +73,12 @@ const Portfolio = () => {
                       className="duration-200 hover:scale-105 text-sm ml-3"
                     >
                       <FaGithub size={25} className="mr-2" />
+                    </a>
+                    <a
+                      href={deployLink}
+                      className="duration-200 hover:scale-105 text-sm ml-3"
+                    >
+                      <GrDeploy size={25} className="mr-2" />
                     </a>
                   </div>
                   <p className="text-sm mb-4">{description}</p>

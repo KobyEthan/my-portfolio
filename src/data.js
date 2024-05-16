@@ -1,4 +1,5 @@
 import chatApp from "./assets/projectPics/chatApp.png";
+import weatherApp from "./assets/projectPics/weatherApp.png";
 import persistenceList from "./assets/projectPics/persistenceList.png";
 import simpleCalculator from "./assets/projectPics/simpleCalculator.png";
 import sortingVisualizer from "./assets/projectPics/sortingVisualizer.png";
@@ -117,6 +118,16 @@ const bigProjects = [
 const smallProjects = [
   {
     id: 1,
+    src: weatherApp,
+    gitLink: "https://github.com/KobyEthan/weather-app",
+    deployLink: "https://weather-app-kobysm.netlify.app/",
+    title: "Weather App",
+    description:
+      "Fetches data from a weather API and displays the current weather in a given location.",
+    stack: "React, TypeScript, Axios, HTML, CSS.",
+  },
+  {
+    id: 2,
     src: persistenceList,
     gitLink: "https://github.com/KobyEthan/persistence-list",
     title: "Persistence List",
@@ -124,7 +135,7 @@ const smallProjects = [
     stack: "EJS, Node, Express, HTML, CSS.",
   },
   {
-    id: 2,
+    id: 3,
     src: jokeGenerator,
     gitLink: "https://github.com/KobyEthan/jokeAPI-app.git",
     title: "Joke Generator",
@@ -132,7 +143,7 @@ const smallProjects = [
     stack: "EJS, Node, Express, HTML, CSS.",
   },
   {
-    id: 3,
+    id: 4,
     src: simpleCalculator,
     gitLink: "https://github.com/KobyEthan/simple-calculator.git",
     title: "Calculator",
@@ -140,7 +151,7 @@ const smallProjects = [
     stack: "JavaScript, HTML, CSS.",
   },
   {
-    id: 4,
+    id: 5,
     src: noteTaker,
     gitLink: "https://github.com/KobyEthan/note-taker-app",
     title: "Note Taker",
