@@ -31,7 +31,7 @@ const Portfolio = () => {
             className="rounded-lg shadow-md shadow-gray-600"
           >
             {bigProjects.map(
-              ({ id, src, gitLink, title, description, stack }) => (
+              ({ id, src, gitLink, deployLink, title, description, stack }) => (
                 <div key={id} className="relative">
                   <img src={src} alt="project-pic" className="rounded-lg" />
                   <div className="flex flex-col justify-center absolute bottom-0 left-0 right-0 p-4 bg-black bg-opacity-80 text-white">
@@ -42,6 +42,12 @@ const Portfolio = () => {
                         className="duration-200 hover:scale-105 text-sm ml-3"
                       >
                         <FaGithub size={25} />
+                      </a>
+                      <a
+                        href={deployLink}
+                        className="duration-200 hover:scale-105 text-sm ml-3"
+                      >
+                        <GrDeploy size={25} className="mr-2" />
                       </a>
                     </div>
                     <p className="text-sm">{description}</p>

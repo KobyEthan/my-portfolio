@@ -108,6 +108,7 @@ const bigProjects = [
     id: 2,
     src: sortingVisualizer,
     gitLink: "https://github.com/KobyEthan/sorting-visualizer",
+    deployLink: "https://sorting-visualizer-kobysm.netlify.app",
     title: "Sorting Visualizer",
     description:
       "Visually represents popular sorting algorithms to better understand how they work.",
