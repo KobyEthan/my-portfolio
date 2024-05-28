@@ -98,6 +98,7 @@ const bigProjects = [
     id: 1,
     src: chatApp,
     gitLink: "https://github.com/KobyEthan/MERN-chat-app",
+    deployLink: "https://mern-chat-app-1r7h.onrender.com",
     title: "Chat App",
     description:
       "A real-time chat application using socket.io and the MERN stack to provide a seemless user experience.",
