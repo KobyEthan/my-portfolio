@@ -112,7 +112,7 @@ const bigProjects = [
     deployLink: "https://sorting-visualizer-kobysm.netlify.app",
     title: "Sorting Visualizer",
     description:
-      "Visually represents popular sorting algorithms to better understand how they work.",
+      "Visually represents popular sorting algorithms to better understand how they work. (UI Not Mobile Friendly)",
     stack: "React, JavaScript, HTML, CSS.",
   },
 ];
